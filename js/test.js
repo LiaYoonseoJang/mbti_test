@@ -4,7 +4,7 @@ window.onload = function () {
       question: "When I hang out with my friends, I...",
       answers: [
         "I make sure everyone is having a good time",
-        "I prefer listening to what everyone else is saying over speaking",
+        "I prefer listening to what everyone else is saying over listening to everyone else",
         "I make lots of jokes to lighten the mood!",
         "I always take the lead and make plans for the rest of the group"
       ]
@@ -19,21 +19,21 @@ window.onload = function () {
       ]
     },
     {
-      question: "Finally it’s weekend, I...",
+      question: "Finally it’s the weekend, I...",
       answers: [
         "I gather my friends for a chill hangout, making sure everyone is having fun!",
-        "I spend a much needed solo day, reflecting my thoughts",
+        "I spend a much needed solo day, where I can reflect with my thoughts",
         "I stay in my bed and NEVER step out!",
         "Gotta stay on trend—visiting the newest café and updating my story"
       ]
     },
     {
-      question: "It’s bed time, I lay down on my bed and...",
+      question: "It’s bedtime, I lay down on my bed and...",
       answers: [
         "I fall asleep hoping I made someone’s day a little easier",
         "I fall asleep replaying the happy moments from today",
         "I fall asleep chuckling at the silly stuff that happened",
-        "I fall asleep planning stuff that should be done tomorrow"
+        "I fall asleep planning what stuff should be done tomorrow"
       ]
     }
   ];
