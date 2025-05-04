@@ -17,14 +17,25 @@ body, html {
 
 .container {
   text-align: center;
-  padding: 30px 24px; /* Add horizontal padding */
-  max-width: 500px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  border: 2px solid #222;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  overflow: visible;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
 
 
 
@@ -252,6 +263,11 @@ body, html {
     text-align: center;
   }
   
-  
+  .question-box {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* or any dark color you prefer */
+    margin-bottom: 20px;
+  }
   
   
