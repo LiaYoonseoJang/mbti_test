@@ -35,9 +35,12 @@ body, html {
     max-width: 800px;
   }
 }
-
-
-
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffaf4;
+  font-family: sans-serif;
+}
 
 
 /* Grid for character icons */
