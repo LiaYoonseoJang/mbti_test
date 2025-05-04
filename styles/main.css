@@ -3,17 +3,14 @@
 }
 
 
-/* Global reset and layout */
 body, html {
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
   background-color: #fff7f0;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 100vh;
 }
+
 
 .container {
   text-align: center;
@@ -124,6 +121,7 @@ body {
   
   .question {
     border: 3px solid #000;
+    color: black;
     border-radius: 20px;
     padding: 30px 20px;
     font-size: 1.4rem;
