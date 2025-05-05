@@ -19,7 +19,7 @@ window.onload = async function () {
     const result = mininiInfo[mininiName.toLowerCase()];
 
     document.getElementById("result-display").innerHTML = `
-      <h1 class="result-name">${mininiName.toUpperCase()}</h1>
+      <h1 class="result-name">${mininiName.toLowerCase()}</h1>
       <img src="${result.img}" alt="${mininiName}" class="minini-img result-img" />
       <div class="result-traits">
         <div class="trait"><span class="checkmark">✔</span> ${result.traits[0]}</div>
