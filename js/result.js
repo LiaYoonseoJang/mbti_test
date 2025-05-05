@@ -19,7 +19,7 @@ window.onload = async function () {
     const result = mininiInfo[mininiName.toLowerCase()];
 
     document.getElementById("result-display").innerHTML = `
-      <h1 class="result-name">${mininiName.toLowerCase()}</h1>
+      <h1 class="result-name" style="text-align: center">${mininiName.toLowerCase()}</h1>
       <img src="${result.img}" alt="${mininiName}" class="minini-img result-img" />
       <div class="result-traits">
         <div class="trait"><span class="checkmark">✔</span> ${result.traits[0]}</div>
@@ -32,7 +32,7 @@ window.onload = async function () {
       <div class="result-info">
         <h3>${mininiName.toLowerCase()} loves</h3>
         <p>${result.hobby}</p>
-        <h3>minini Bestie</h3>
+        <h3>minini bestie</h3>
         <p>${result.bestie}</p>
         <h3>${mininiName.toLowerCase()} hates</h3>
         <p>${result.hates}</p>
@@ -42,7 +42,7 @@ window.onload = async function () {
         <img src="${result.web}" alt="Minini Friendship Web" class="full-img" />
       </div>
 <div class="recommend-box">
-  <h3>추천 제품 리스트</h3>
+  <h3>Recommended Items</h3>
   <div class="recommend-grid">
     ${[1,2,3,4,5,6].map(n => {
       const img = result[`recommend${n}`];
@@ -58,7 +58,7 @@ window.onload = async function () {
 </div>
 
 
-      <a href="test.html" class="see-btn">Try Again</a>
+<a href="index.html" class="see-btn" onclick="localStorage.removeItem('mininiAnswers')">Try Again</a>
     `;
   } catch (err) {
     console.error("Failed to fetch mininiInfo:", err);
