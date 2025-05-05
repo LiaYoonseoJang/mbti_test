@@ -15,8 +15,8 @@ window.onload = async function () {
 
   try {
 
-    const mininiName = matched.name;
-    const result = mininiInfo[mininiName];
+    const mininiName = matched.name.toLowerCase();
+    const result = mininiInfo[mininiName.toLowerCase()];
 
     document.getElementById("result-display").innerHTML = `
       <h1 class="result-name">${mininiName.toUpperCase()}</h1>
@@ -30,11 +30,11 @@ window.onload = async function () {
         ${result.description}
       </div>
       <div class="result-info">
-        <h3>Favorite Hobby</h3>
+        <h3>${mininiName.toLowerCase()} loves</h3>
         <p>${result.hobby}</p>
-        <h3>Minini Bestie</h3>
+        <h3>minini Bestie</h3>
         <p>${result.bestie}</p>
-        <h3>${mininiName.toUpperCase()} HATES...</h3>
+        <h3>${mininiName.toLowerCase()} hates</h3>
         <p>${result.hates}</p>
       </div>
       <div class="result-images">

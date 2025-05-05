@@ -280,4 +280,10 @@ body {
     margin-bottom: 20px;
   }
   
+
+  .result-info {
+    text-align: center; /* ✅ centers all text inside */
+    margin: 30px auto;
+    max-width: 600px;
+  }
   
