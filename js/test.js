@@ -28,7 +28,7 @@ window.onload = function () {
       ]
     },
     {
-      question: "It’s bedtime, I lay down in bed and  I…",
+      question: "It’s bedtime, I lay down in bed and I ...",
       answers: [
         "I fall asleep hoping I made someone’s day a little easier",
         "I fall asleep replaying the happy moments from today",
