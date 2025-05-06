@@ -287,3 +287,18 @@ body {
     max-width: 600px;
   }
   
+  .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2d854d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 999px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #246f3e;
+  }
+  
